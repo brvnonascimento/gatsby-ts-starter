@@ -1,5 +1,3 @@
-const path = require('path');
-
 const prodPlugins =
   process.env.NODE_ENV !== 'development'
     ? [
@@ -53,6 +51,7 @@ module.exports = {
         path: './src/pages/'
       }
     },
-    'gatsby-plugin-mdx'
+    'gatsby-plugin-mdx',
+    'gatsby-plugin-extract-schema'
   ]
 };

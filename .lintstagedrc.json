@@ -1,0 +1,8 @@
+{
+  "*.ts": [
+    "yarn eslint --fix",
+    "yarn jest --passWithNoTests",
+    "yarn format",
+    "yarn typecheck"
+  ]
+}
